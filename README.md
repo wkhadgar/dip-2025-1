@@ -17,6 +17,14 @@ To enable students to understand and apply digital image processing techniques f
 1. **Mathematical Morphology**: Dilation, erosion, opening, and closing on binary and grayscale images.
 1. **Advanced Applications and Practical Projects**: Implementation of algorithms in Python using OpenCV.
 
+# Environment setup
+
+```
+conda create -n dip python=3.11
+conda activate dip
+pip install -r requirements.txt
+```
+
 # References
 
 1. Gonzalez, Rafael C.; Woods, Richard E. "_Digital Image Processing_", 3rd Ed. Pearson.
