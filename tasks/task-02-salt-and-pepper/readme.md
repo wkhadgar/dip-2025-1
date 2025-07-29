@@ -2,11 +2,14 @@
 
 ## Objective
 
-The goal of this exercise is to implement a function that generates a grayscale image with salt-and-pepper noise. This helps students understand how to simulate noise in image processing and how to manipulate probability distributions to introduce artifacts in digital images.
+The goal of this exercise is to implement a function that generates a grayscale image with salt-and-pepper noise. This
+helps students understand how to simulate noise in image processing and how to manipulate probability distributions to
+introduce artifacts in digital images.
 
 ## Description
 
-The image is represented as a NumPy array of shape `(height, width)` with float values. Each pixel in the image may take one of the following values:
+The image is represented as a NumPy array of shape `(height, width)` with float values. Each pixel in the image may take
+one of the following values:
 
 - **1.0** (salt)
 - **-1.0** (pepper)
